@@ -16,6 +16,7 @@ h1
 section 
 {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -33,9 +34,10 @@ section
     background-image: linear-gradient(orange, tomato);
     font-weight: 700;
     padding:10px 40px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color:white;
     border-radius: 5px;
+    padding-top:5px;
 }
 
 .first-section
@@ -43,4 +45,22 @@ section
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.Dream-big
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    
+}
+
+.scnd-image
+{
+  padding-left: 20%;
+  
+}
+
+.scnd-discription
+{
+    padding-right:10%;
 }
